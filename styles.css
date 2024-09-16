@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #803164;
+}
+
+.primeira{
+    margin-top: 50px;
+    background-color: #F4B1DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textos{
+    margin-left: 100px;
+}
+
+h1{
+    font-size: 150px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(92, 35, 65);
+    margin: 0;
+}
+
+h3{
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    color: rgb(92, 35, 65);
+}
+
+img{
+    height: 600px;
+    opacity: 0.5;
+}
+
+button{
+    width: 240px;
+    height: 60px;
+    background-color: rgb(92, 35, 65);
+    border: none;
+    color: #F4B1DC;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+    border-radius: 40px;
+    flex-direction: column;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+a{
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(92, 35, 65);
+    border: 3px solid rgb(92, 35, 65);
+    border-radius: 25px;
+
+}
+
+a:hover{
+    color: #F4B1DC;
+    background-color: rgb(92, 35, 65);
+    transition: 0.3s;
+}
+
+button:hover{
+    color: rgb(92, 35, 65);
+    background-color: #F4B1DC;
+    transition: 0.3s;
+    border: 3px solid rgb(92, 35, 65);
+}
